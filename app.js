@@ -22,7 +22,7 @@ function deleteitem(url){
 function fetchbookmark()
     {
         var bookmarks = JSON.parse(localStorage.getItem('book'));
-        var bookmarkshow = document.getElementById('bookpart');
+        var bookmarkshow = document.getElementById('book');
         bookmarkshow.innerHTML = '';
         
         for(var i=0;i<bookmarks.length;i++)

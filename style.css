@@ -121,7 +121,7 @@ hr
     color: tomato;
     margin: 20px 40px;
 }
-#bookpart
+#book
 {
     margin: 20px 10px;
     height:60px;
@@ -139,7 +139,7 @@ hr
     border-radius: 5px;
     position: relative;
 }
-#bookpart .button1
+#book .button1
 {
   position: absolute;
     top:15px;
@@ -148,7 +148,7 @@ hr
     height:30px;
 }
     
-#bookpart .button2
+#book .button2
 {
     position: absolute;
     top:15px;
@@ -156,12 +156,12 @@ hr
     width:80px;
     height:30px;  
 }
-#bookpart .button1 a
+#book .button1 a
 {
     text-decoration: none;
     color: black;
 }
-#bookpart .button2 a
+#book .button2 a
 {
     text-decoration: none;
     color: black;
