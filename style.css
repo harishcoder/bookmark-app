@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: RobotoMono, sans-serif;
+    outline:none;
+}
+
+.container
+{
+    margin: 0 200px;
+}
+
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: coral;
+    
+}
+
+#navbar h1
+{
+    margin: 20px;
+    
+}
+#navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:100px;
+    top:20px;
+}
+#navbar li
+{
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+#main .container
+{
+    background: #80808021;
+    height:400px;
+    width:auto;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.5);
+    margin-top: 10px;
+}
+#main h2
+{
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+#main h3
+{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+hr
+{
+        margin: 0 10px;
+    box-shadow: 2px 1px 15px rgba(0,0,0,.5);
+}
+#main form
+{
+        margin-top: 30px;
+    text-align: center;
+}
+#main input
+{
+    margin: 20px;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid coral;
+    padding:5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#main button
+{
+    width: 80px;
+    height: 30px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 1px solid coral;
+    font-family: roboto;
+}
+ #data h3
+{
+    margin: 20px;
+    font-size: 25px;
+}
+#data .style
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:none;
+    box-shadow: 2px 2px 2px 15px rgba(0,0,0,.5);
+    
+}
+#data .text{
+    
+    font-size: 30px;
+    color: tomato;
+    margin: 20px 40px;
+}
+#data .url
+{
+    
+    font-size: 30px;
+    color: tomato;
+    margin: 20px 40px;
+}
+#bookpart
+{
+    margin: 20px 10px;
+    height:60px;
+    
+}
+.show
+{
+    background: #80808021;
+    color: black;
+    border:1px solid;
+    margin: 5px;
+    height: 100%;
+    padding: 15px 15px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    border-radius: 5px;
+    position: relative;
+}
+#bookpart .button1
+{
+  position: absolute;
+    top:15px;
+    right:120px;
+    width:80px;
+    height:30px;
+}
+    
+#bookpart .button2
+{
+    position: absolute;
+    top:15px;
+    right:20px;
+    width:80px;
+    height:30px;  
+}
+#bookpart .button1 a
+{
+    text-decoration: none;
+    color: black;
+}
+#bookpart .button2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
